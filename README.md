@@ -70,3 +70,12 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 ```
+```
+sudo systemctl daemon-reload
+```
+```
+systemctl start hello.service
+```
+```
+systemctl status hello.service
+```
