@@ -77,5 +77,8 @@ sudo systemctl daemon-reload
 systemctl start hello.service
 ```
 ```
+sudo systemctl enable hello.service
+```
+```
 systemctl status hello.service
 ```
