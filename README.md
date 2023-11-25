@@ -74,7 +74,7 @@ WantedBy=multi-user.target
 sudo systemctl daemon-reload
 ```
 ```
-systemctl start hello.service
+sudo systemctl start hello.service
 ```
 ```
 sudo systemctl enable hello.service
