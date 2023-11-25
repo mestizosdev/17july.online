@@ -21,3 +21,13 @@ npm install cors
 ```
 node index.js
 ```
+
+## Docker
+### Build image
+```
+docker build -t node-hello .
+```
+### Run
+```
+docker run -d -p 3000:3000 --name hello --restart on-failure node-hello:latest
+```
