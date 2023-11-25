@@ -26,3 +26,10 @@ npm init
 ```
 ## Create frontend project
 - Vite
+
+## Access Read to .pem file
+```
+icacls .\Jorge.pem /reset
+icacls .\Jorge.pem /grant:r "$($env:username):(r)"
+icacls .\Jorge.pem /inheritance:r
+```
